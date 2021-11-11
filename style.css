@@ -1,0 +1,109 @@
+/* Currently all images are place holders and will be changed as I find better pictures of myself and a background that is appropriate for this type of website*/
+/* Too much space in between #my-header and nav bar MUST BE FIXED*/
+/*NO ABOUT PAGE YET*/
+body{
+    background-image: url("city.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times serif;
+    background-color:whitesmoke;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+header{
+    background: grey;
+    
+}
+
+nav{
+    text-align: left;
+}
+
+ul-navbar-nav{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+    text-align: center;
+    
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color:black;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+.selfimg{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+#name{
+    margin-left: 500px;
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+#Aboutme{
+    margin-top: 300px;
+    margin-left: 500px;
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+#ContactMe{
+    margin-top: 300px;
+    margin-left: 500px;
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+
+
+
+
